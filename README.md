@@ -16,8 +16,7 @@ The goal of the project is to predict house sale prices based on features such a
 My main goals in this project were:  
 - To solve a real-world regression problem  
 - To apply machine learning models for house price prediction  
-- To design a clean and reproducible **Pipeline workflow** with preprocessing + modeling steps  
-- To optimize the model using **GridSearchCV**  
+- To design a clean and reproducible **Pipeline workflow** with preprocessing + modeling steps   
 
 ---
 
