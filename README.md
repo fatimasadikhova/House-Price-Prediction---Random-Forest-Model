@@ -6,13 +6,11 @@ The goal of the project is to predict house sale prices based on features such a
 ---
 
 # 📂 Quick Access
-- 🔗 [Competition Dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)  
-- 🔗 [Kaggle](https://www.kaggle.com/code/fatimsadixova/house-price-prediction-random-forest-model)  
 - 🔗 [Notebooks in this Repository](https://github.com/fatimasadikhova/House-Price-Prediction-Random-Forest-Model/blob/main/House%20Price%20Prediction-%20Random%20Forest%20Model.ipynb)
 - 🔗 [Train Dataset](https://github.com/fatimasadikhova/House-Price-Prediction-Random-Forest-Model/blob/main/train.csv)
 - 🔗 [Test Dataset](https://github.com/fatimasadikhova/House-Price-Prediction-Random-Forest-Model/blob/main/test.csv)
 - 🔗 [Submission Dataset](https://github.com/fatimasadikhova/House-Price-Prediction-Random-Forest-Model/blob/main/submission.csv)
- 
+- 🔗 [Kaggle](https://www.kaggle.com/code/fatimsadixova/house-price-prediction-random-forest-model)  
 ---
 ## 📌 Objective
 My main goals in this project were:  
@@ -49,8 +47,8 @@ I built the entire workflow using a **Pipeline** in scikit-learn, which allowed 
    - Evaluation using RMSE  
 
 4. **Evaluation**
-   - Local Validation RMSE: **0.14424**  
-   - Kaggle Public Leaderboard Score: *(to be added here once available)*  
+   - Local Validation RMSE: **0.1447**  
+   - Kaggle Public Leaderboard Score: **0.14421** 
 
 ---
 
@@ -71,7 +69,7 @@ I also designed the **system architecture** for this project to demonstrate how 
 ## 📈 Results
 The pipeline-based model successfully predicted house prices with good accuracy.  
 
-- **Validation RMSE:** 0.14424  
+- **RMSE:** 0.14424  
 - Predictions were successfully submitted to Kaggle.  
 
 ---
