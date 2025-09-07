@@ -8,15 +8,18 @@ The goal of the project is to predict house sale prices based on features such a
 # 📂 Quick Access
 - 🔗 [Competition Dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)  
 - 🔗 [Kaggle](https://www.kaggle.com/code/fatimsadixova/house-price-prediction-random-forest-model)  
-- 📒 [Notebooks in this Repository](notebooks/)
-
+- 🔗 [Notebooks in this Repository](https://github.com/fatimasadikhova/House-Price-Prediction-Random-Forest-Model/blob/main/House%20Price%20Prediction-%20Random%20Forest%20Model.ipynb)
+- 🔗 [Train Dataset](https://github.com/fatimasadikhova/House-Price-Prediction-Random-Forest-Model/blob/main/train.csv)
+- 🔗 [Test Dataset](https://github.com/fatimasadikhova/House-Price-Prediction-Random-Forest-Model/blob/main/test.csv)
+- 🔗 [Submission Dataset](https://github.com/fatimasadikhova/House-Price-Prediction-Random-Forest-Model/blob/main/submission.csv)
+ 
 ---
-
 ## 📌 Objective
 My main goals in this project were:  
 - To solve a real-world regression problem  
 - To apply machine learning models for house price prediction  
-- To design a clean and reproducible **Pipeline workflow** with preprocessing + modeling steps   
+- To design a clean and reproducible **Pipeline workflow** with preprocessing + modeling steps  
+- To optimize the model using **GridSearchCV**  
 
 ---
 
@@ -51,6 +54,20 @@ I built the entire workflow using a **Pipeline** in scikit-learn, which allowed 
 
 ---
 
+## 🏗️ System Design
+I also designed the **system architecture** for this project to demonstrate how the solution can be structured in a real-world scenario.  
+
+**Key components of the design:**  
+- **Data Layer:** Kaggle dataset, cleaned and preprocessed  
+- **Processing Layer:** Data transformation & feature engineering using Pipelines  
+- **Modeling Layer:** Random Forest Regressor with hyperparameter tuning  
+- **Evaluation Layer:** Validation using RMSE and submission to Kaggle  
+- **Deployment Idea (Future):** Model could be served as an API for real estate price prediction  
+
+📌 [System Design](https://github.com/fatimasadikhova/House-Price-Prediction-Random-Forest-Model/blob/main/System%20Design.drawio.png)
+
+---
+
 ## 📈 Results
 The pipeline-based model successfully predicted house prices with good accuracy.  
 
@@ -64,7 +81,7 @@ In the future, I plan to:
 - Experiment with more advanced models (XGBoost, LightGBM, Neural Networks)  
 - Perform deeper feature engineering  
 - Add model interpretability (SHAP values, feature importance)  
+- Deploy the model as an API service  
 
 ---
 
-## 📂 Project Structure
